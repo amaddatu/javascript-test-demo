@@ -1,0 +1,23 @@
+{
+  "name": "javascript-test-demo",
+  "version": "1.0.0",
+  "description": "Spherical Object \r Constructor \r var sphere = new Spherical() should create an Object that is of type Spherical\r jump function should return true and this is always\r moveForward function that should take a distance and return a position that is adding the distance\r moveForward should not allow negative numbers\r move function that should take direction and distance and return a position that is based on adding the distance travelled to current position\r roll function that will take a direction and travel the circumference of the circle in that direction, returning the position",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaddatu/javascript-test-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaddatu/javascript-test-demo/issues"
+  },
+  "homepage": "https://github.com/amaddatu/javascript-test-demo#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
